@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="@drawable/img" />
+
+    <EditText
+        android:id="@+id/etFirstValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="First Value"
+        android:inputType="number"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:id="@+id/etsecondValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Second Value"
+        android:inputType="number"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvAns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingTop="10dp" />
+
+    <Button
+        android:id="@+id/bAddition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#FFC107"
+        android:paddingTop="10dp"
+        android:text="@string/Plus" />
+
+    <Button
+        android:id="@+id/bSubtraction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ED5F5F"
+        android:paddingTop="10dp"
+        android:text="@string/Subtract" />
+
+    <Button
+        android:id="@+id/bMultiplication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:paddingTop="10dp"
+        android:text="@string/Multiply" />
+
+    <Button
+        android:id="@+id/bDivision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#49EF50"
+        android:paddingTop="10dp"
+        android:text="@string/Dvision" />
+
+</LinearLayout>
